@@ -75,7 +75,7 @@ but maybe after looking at `uber.transactions` you realize this groups together
 uber trips and uber eats. Separate them like this
 
 ```python
->>> eats = uber.by_description("eats", re.I)
+>>> eats = uber.by_description("eats")
 >>> eats
 '<Transactions 02/27/23 - 03/05/23; n=2, sum=$35.00>'
 >>> trips = uber - eats
