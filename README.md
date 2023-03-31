@@ -54,8 +54,7 @@ make the search case-insensitive. Uses `re.search` so it should match to
 anywhere in the description, not just at the beginning of the string. 
 
 ```python
->>> import re
->>> activity.by_description(r'whole foods', re.I)
+>>> activity.by_description(r'whole foods')
 '<Transactions 02/01/23 - 03/23/23; n=50, sum=$1000>'
 ```
 
@@ -67,7 +66,7 @@ that are in one list of transactions from another. For example, you group by
 uber transactions
 
 ```python
->>> uber = activity.by_description("uber", re.I)
+>>> uber = activity.by_description("uber")
 >>> uber
 '<Transactions 02/27/23 - 03/19/23; n=5, sum=$110.00>'
 ```
