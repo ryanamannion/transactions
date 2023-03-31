@@ -18,7 +18,7 @@ AMEX = {
     'date': 'date',
     'category': 'category',
     'description': 'description',
-    'ignore_negatives': 'ignore_negatives'
+    'ignore_negatives': True
 }
 
 configs = {
