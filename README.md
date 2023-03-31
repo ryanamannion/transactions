@@ -89,7 +89,7 @@ uber trips and uber eats. Separate them like this
 
 ### Seeing Transactions
 
-At any time, you can use Transactions.print_transactions() to use pretty print
+At any time, you can use `Transactions.print_transactions` to use pretty print
 to show you all the details about each individual transaction
 
 ```python
